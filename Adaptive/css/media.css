@@ -1,0 +1,282 @@
+@media screen and (max-width: 1218px)
+{
+    .films
+    {
+        max-width: 1000px;
+        text-align: left;
+    }
+    
+    .my_films
+    {
+        text-align: center;
+    }
+    
+    div.film_block
+    {
+        max-width: 50%;
+        width: 400px;
+        margin: 0 auto 40px;
+    }
+    
+    .last_film
+    {
+        max-width: 50%;
+        width: 400px;
+        margin: 0 auto 50px;
+    }
+    
+    img.film_image
+    {
+        width: 100%;
+        max-width: 450px;
+        height: 300px;
+    }
+    
+    .films_names
+    {
+        width: 100%;
+    }
+    
+    .films_descriptions
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    .menu_buttons_position
+    {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+    
+    div.wrapper
+    {
+        max-width: 600px;
+        width: 90%;
+    }
+    
+    div.left_block
+    {
+        max-width: 600px;
+        width: 100%;
+    }
+    
+    .my_photo
+    {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 330px;
+        width: 100%;
+    }
+    
+    .block_word
+    {
+        display: none;
+    }
+    
+    .my_love_items
+    {
+        max-width: 500px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .my_love_music
+    {
+        float: left;
+        max-width: 250px;
+        width: 100%;
+    }
+    
+    .my_love_films
+    {
+        float: right;
+        max-width: 250px;
+        width: 100%;
+    }
+    
+    .preferences_music_films
+    {
+        text-align: center;
+    }
+    
+    div.right_block
+    {
+        max-width: 1000px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .information
+    {
+        max-width: 600px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .description
+    {
+        width: 100%;
+        max-width: 600px;
+    }
+    
+    .hobby
+    {
+        width: 100%;
+        max-width: 600px;
+    }
+    
+    .films
+    {
+        width: 100%;
+        max-width: 800px;
+    }
+    
+    div.film_block
+    {
+        min-width: 70%;
+        width: 800px;
+        margin: 0 auto 60px;
+    }
+    
+    .last_film
+    {
+        max-width: 70%;
+        width: 800px;
+        margin: 0 auto 60px;
+    }
+    
+    img.film_image
+    {
+        width: 100%;
+        max-width: 800px;
+        height: auto;
+    }
+    
+    .films_names
+    {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .films_descriptions
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 630px)
+{
+    div.left_block
+    {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    
+    .my_love_music
+    {
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .my_love_films
+    {
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .menu_buttons_position
+    {
+        float: left;
+    }
+    
+    .menu_list a
+    {
+        display: none;
+    }
+    
+    .hamburger_button
+    {
+        display: inline-block;
+        padding: 10px 20px;
+        float: left;
+        width: 25px;
+        height: auto;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    
+    .name
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .description
+    {
+        text-align: center;
+    }
+    
+    .caption_hobby
+    {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .hobby
+    {
+        text-align: center;
+    }
+    
+    .rectangle
+    {
+        display: none;
+    }
+    
+    .my_vk
+    {
+        text-align: center;
+    }
+    
+    div.form_block
+    {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 705px)
+{
+    input[type=text], select
+    {
+        width: 100%;
+    }
+    
+    textarea
+    {
+        width: 96%;
+    }
+    
+    .text_field_active_select
+    {
+        
+        background: url(../img/arrow_down1.png) no-repeat;
+        background-position: right;
+        width: 100%;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 705px)
+{
+    .write::before
+    {
+        display: none;
+    }
+    .write::after
+    {
+        display: none;
+    }
+}
